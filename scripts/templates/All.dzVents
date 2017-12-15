@@ -26,7 +26,7 @@ return {
 			258, -- id
 		},
 
-		-- timer riggers
+		-- timer triggers
 		timer = {
 			-- timer triggers.. if one matches with the current time then the script is executed
 			'at 13:45',
@@ -75,7 +75,7 @@ return {
 	-- actual event code
 	-- the second parameter is depending on the trigger
 	-- when it is a device change, the second parameter is the device object
-	-- similir for variables, scenes and groups
+	-- similar for variables, scenes and groups
 	-- for timer and security events, the second parameter is nil
 	execute = function(domoticz, triggeredItem, info)
 		--[[
